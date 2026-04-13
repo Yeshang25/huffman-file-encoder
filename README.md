@@ -83,9 +83,6 @@ python app.py
 
 ##  Screenshots
 
-### 🔹 Main Interface
-![Main UI](screenshots/main.png)
-
 ### 🔹 File Upload
 ![Upload](screenshots/upload.png)
 
