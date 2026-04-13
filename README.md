@@ -1,16 +1,16 @@
   #  Huffman File Encoder & Decoder
 
-A web-based application that implements Huffman Coding to encode and decode text files, demonstrating lossless compression concepts and efficient data representation.
+A web-based application that implements Huffman Coding to encode and decode text files, demonstrating lossless data representation and reconstruction.
 
 ---
 
-##  Features
+## Features
 
--  Upload text files for encoding and decoding  
--  Efficient compression using Huffman Coding (Greedy Algorithm)  
--  Lossless decoding (original file perfectly reconstructed)  
--  Interactive web interface using Flask  
--  Download compressed (.bin) and decompressed (.txt) files  
+- Upload text files for encoding and decoding  
+- Implements Huffman Coding (Greedy Algorithm) for optimal prefix-based encoding  
+- Demonstrates lossless data reconstruction using generated code mappings  
+- Interactive web interface using Flask  
+- Supports download of encoded (.bin) and decoded (.txt) files  
 
 ---
 
@@ -96,19 +96,19 @@ python app.py
 
 ## Learning Outcomes
 
-* Implemented Huffman Coding from scratch
-* Applied greedy algorithms and tree data structures
-* Built full-stack web application using Flask
-* Handled file processing and data transformation
+• Implemented Huffman Coding from scratch using tree-based data structures  
+• Applied greedy algorithm concepts for optimal prefix encoding  
+• Developed a full-stack web application using Flask, HTML, CSS, and JavaScript  
+• Implemented file handling for encoding, decoding, and data transformation  
 
 ---
 
 ##  Future Improvements
 
-* Support binary file compression
-* Improve compression efficiency (bit-level storage)
-* Deploy on cloud (Render / AWS / Azure)
-* Add drag-and-drop UI enhancements
+* Implement true binary (bit-level) compression for improved storage efficiency  
+* Optimize encoding and decoding performance  
+* Deploy the application on cloud platforms (Render / AWS / Azure)  
+* Enhance user interface with drag-and-drop functionality  
 
 ---
 
