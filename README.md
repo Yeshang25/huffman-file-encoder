@@ -77,9 +77,23 @@ python app.py
 
 ---
 
+##  Project Preview
+
+![Main UI](screenshots/main.png)
+
 ##  Screenshots
 
-*Add your project screenshots here (UI, encoding, decoding)*
+### 🔹 Main Interface
+![Main UI](screenshots/main.png)
+
+### 🔹 File Upload
+![Upload](screenshots/upload.png)
+
+### 🔹 Encoding Output
+![Encode](screenshots/encrypt.png)
+
+### 🔹 Decoding Output
+![Decode](screenshots/decode.png)
 
 ---
 
