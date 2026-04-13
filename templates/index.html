@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huffman File Encoder & Decoder</title>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <h1>Huffman File Encoder & Decoder</h1>
+            <p>
+                Encode and decode text files using Huffman Coding algorithm.
+                Upload a file to convert it into binary format and reconstruct it back.
+            </p>
+        </div>
+
+        <div class="cards-container">
+
+            <!-- ENCODE -->
+            <div class="card">
+                <h2>
+                    <i class="fas fa-upload"></i>
+                    Encode File
+                </h2>
+
+                <form id="compressForm" action="/compress" method="post" enctype="multipart/form-data">
+
+                    <div class="upload-area" id="compressUploadArea">
+                        <i class="fas fa-file-upload upload-icon"></i>
+                        <p>Drag & drop your text file here or click to browse</p>
+                        <small>Supports .txt files</small>
+                        <input type="file" id="compressFile" name="file" class="file-input" accept=".txt">
+                    </div>
+
+                    <div class="file-info" id="compressFileInfo">
+                        <p><strong>Selected file:</strong> <span id="compressFileName"></span></p>
+                        <p><strong>Size:</strong> <span id="compressFileSize"></span></p>
+                    </div>
+
+                    <button type="submit" class="btn" id="compressBtn" disabled>
+                        Encode File
+                    </button>
+
+                    <div class="status" id="compressStatus"></div>
+                </form>
+            </div>
+
+            <!-- DECODE -->
+            <div class="card">
+                <h2>
+                    <i class="fas fa-download"></i>
+                    Decode File
+                </h2>
+
+                <form id="decompressForm" action="/decompress" method="post" enctype="multipart/form-data">
+
+                    <div class="upload-area" id="decompressUploadArea">
+                        <i class="fas fa-file-download upload-icon"></i>
+                        <p>Drag & drop your encoded file here or click to browse</p>
+                        <small>Supports .bin files</small>
+                        <input type="file" id="decompressFile" name="file" class="file-input" accept=".bin">
+                    </div>
+
+                    <div class="file-info" id="decompressFileInfo">
+                        <p><strong>Selected file:</strong> <span id="decompressFileName"></span></p>
+                        <p><strong>Size:</strong> <span id="decompressFileSize"></span></p>
+                    </div>
+
+                    <button type="submit" class="btn" id="decompressBtn" disabled>
+                        Decode File
+                    </button>
+
+                    <div class="status" id="decompressStatus"></div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- External JS -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
