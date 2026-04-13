@@ -87,10 +87,10 @@ python app.py
 ![Upload](screenshots/upload.png)
 
 ### 🔹 Encoding Output
-![Encode](screenshots/encrypt.png)
+![Encode](screenshots/encoded.png)
 
 ### 🔹 Decoding Output
-![Decode](screenshots/decode.png)
+![Decode](screenshots/decoded.png)
 
 ---
 
