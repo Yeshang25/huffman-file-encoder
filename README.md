@@ -1,6 +1,6 @@
   #  Huffman File Encoder & Decoder
 
-A web-based application that performs file encoding and decoding using the **Huffman Coding algorithm**, enabling efficient data compression and reconstruction.
+A web-based application that implements Huffman Coding to encode and decode text files, demonstrating lossless compression concepts and efficient data representation.
 
 ---
 
