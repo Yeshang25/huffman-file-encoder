@@ -96,10 +96,10 @@ python app.py
 
 ## Learning Outcomes
 
-• Implemented Huffman Coding from scratch using tree-based data structures  
-• Applied greedy algorithm concepts for optimal prefix encoding  
-• Developed a full-stack web application using Flask, HTML, CSS, and JavaScript  
-• Implemented file handling for encoding, decoding, and data transformation  
+* Implemented Huffman Coding from scratch using tree-based data structures  
+* Applied greedy algorithm concepts for optimal prefix encoding  
+* Developed a full-stack web application using Flask, HTML, CSS, and JavaScript  
+* Implemented file handling for encoding, decoding, and data transformation  
 
 ---
 
