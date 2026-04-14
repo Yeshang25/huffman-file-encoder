@@ -79,7 +79,7 @@ python app.py
 
 ##  Project Preview
 
-![Main UI](screenshots/main.png)
+![Main UI](screenshots/mainimg.png)
 
 ##  Screenshots
 
